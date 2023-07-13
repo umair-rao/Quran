@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3em;
+}
+
+.surah-card {
+    display: flex;
+    width: 23em;
+    height: 5em;
+    background-color: antiquewhite;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+.surah-card:hover {
+    border: #2CA4AB 2px solid;
+    cursor: pointer;
+}
+
+.number-div {
+    display: flex;
+    width: 3em;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+.englishName {
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 12em;
+}
+
+.number:hover,
+.englishTrans:hover,
+.ayahs:hover {
+    color: #2CA4AB;
+    cursor: pointer;
+}
