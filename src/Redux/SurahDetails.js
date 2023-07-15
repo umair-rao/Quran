@@ -8,7 +8,6 @@ export const fetchSurahDetail = createAsyncThunk(
     SURAH_DETAIL,
   async (number, { dispatch }) => {
     const response = await axios.get(`${baseURL}/${number}`);
-    console.log(response.data)
     dispatch({ type: SURAH_DETAIL, payload: response.data });
   },
 );

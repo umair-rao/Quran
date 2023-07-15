@@ -1,0 +1,16 @@
+.surah-detail {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: x-large;
+    margin-bottom: 1em;
+    height: 4em;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.ayah-number {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
